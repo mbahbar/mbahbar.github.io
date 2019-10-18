@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Login Hotspot Mbahbar > Logout</title>
+	
+	<!-- meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="expires" content="-1">
+	
+	<!-- css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/ionicons.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/elegant-icons/style.css">
+	
+	<!-- CAROUSEL AND LIGHTBOX -->
+	<link rel="stylesheet" href="css/owl.theme.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/nivo-lightbox.css">
+	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
+
+	<!-- COLORS -->
+	<link rel="stylesheet" href="css/colors/blue.css" title="blue">
+
+	<!-- CUSTOM STYLESHEETS -->
+	<link rel="stylesheet" href="css/styles.css">
+
+	<!-- RESPONSIVE FIXES -->
+	<link rel="stylesheet" href="css/responsive.css">
+
+	<!-- STYLE SWITCH STYLESHEET ONLY FOR DEMO -->
+	<link rel="stylesheet" href="css/demo.css">
+
+</head>
+<body>
+	<script language="JavaScript">
+	<!--
+	    function openLogin() {
+		if (window.name != 'hotspot_logout') return true;
+		open('$(link-login)', '_blank', '');
+		window.close();
+		return false;
+	    }
+	//-->
+	</script>
+
+	<!-- =========================
+			PRE LOADER       
+	============================== -->
+	<div class="preloader">
+  		<div class="status">&nbsp;</div>
+	</div>
+
+	<!-- =========================
+			HEADER
+	============================== -->
+	<header id="home">
+
+		<div class="color-overlay">
+			<!-- NAVIGATION DRAWER HEADER -->
+			<div class="navigation-header">
+				<!-- STICKY NAVIGATION -->
+				<div class="navbar navbar-inverse bs-docs-nav navbar-fixed-top sticky-navigation">
+					<!-- CONTAINER -->
+					<div class="container">
+						<div class="navbar-header">
+							<!-- LOGO ON STICKY NAV BAR -->
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#landx-navigation">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#"><img src="images/logo-dark.png" alt="" style="min-height: 40px; min-width: 90px"></a>
+						</div>
+						
+						<!-- NAVIGATION LINKS -->
+						<div class="navbar-collapse collapse" id="landx-navigation">
+							<ul class="nav navbar-nav navbar-right main-navigation">
+								<li><a href="#home">Home</a></li>
+								<li><a href="#pricing">Pricing</a></li>
+								<li><a href="#contact">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+					<!-- /END CONTAINER -->
+				</div>
+				<!-- /END STICKY NAVIGATION -->
+
+				<!-- ONLY LOGO ON HEADER -->
+				<div class="navbar non-sticky">
+
+					<!-- CONTAINER -->
+					<div class="container">
+
+						<div class="navbar-header">
+							<img src="images/logo.png" alt="" style="min-width: 150px; min-height: 80px;">
+						</div>
+
+						<ul class="nav navbar-nav navbar-right social-navigation hidden-xs">
+							<li><a href="#"><img src="images/mikrotik.png" style="height: 30px;width: 30px"></a></li>
+							<li><a href="#"><img src="images/tp-link.png" style="height: 30px;width: 30px"></a></li>
+							<li><a href="#"><img src="images/ubiquity.png" style="height: 30px;width: 30px"></a></li>
+							<li><a href="#"><img src="images/zte.png" style="height: 30px;width: 30px"></a></li>
+						</ul>
+					</div>
+					<!-- /END CONTAINER -->
+				</div>
+				<!-- /END ONLY LOGO ON HEADER -->
+			</div>
+			<!-- /END NAVIGATION DRAWER HEADER -->
+
+			
+			<!-- HEADING, FEATURES AND REGISTRATION FORM CONTAINER -->
+			<div class="container">
+				
+				<div class="row">
+					
+					<!-- LEFT - HEADING AND TEXTS -->
+					<div class="col-md-7 col-sm-7 intro-section">
+						
+						<h1 class="intro text-left">
+						<strong>Selamat Datang !!!</strong>
+						</h1>
+						<h2 class="intro text-left">Nikmati <strong>Layanan</strong> Intenet <strong>Tanpa Batas</strong></h2>
+						
+						<ul class="feature-list-1">
+							
+							<!-- FEATURE ROW -->
+							<li>
+								<div class="icon-container pull-left">
+									<span class="icon ion-lightbulb"></span>
+								</div>
+								<p class="text-left">
+									Gunakan internet dengan bijak sesuai kebutuhan dan keperluan.
+								</p>
+							</li>
+							
+							<!-- FEATURE ROW -->
+							<li>
+								<div class="icon-container pull-left">
+									<span class="icon ion-checkmark"></span>
+								</div>
+								<p class="text-left">
+									Jika mengalami permasalahan akses internet silahkan hubungi administrator internet.
+								</p>
+							</li>
+
+							<!-- FEATURE ROW -->
+							<li>
+								<div class="icon-container pull-left">
+									<span class="icon ion-person-stalker"></span>
+								</div>
+								<p class="text-left">
+									Untuk Menggunakan <span class="colored-text">Trial User</span> silahkan klik Trial tanpa mengisi <span class="colored-text"> username </span>dan <span class="colored-text">password</span>.
+								</p>
+							</li>
+						</ul>
+						
+					</div>
+					
+					<!-- RIGHT - REGISTRATION FORM -->
+					
+					<div class="col-md-5 col-sm-5">
+						<div class="vertical-registration-form">
+							<div class="colored-line"></div>
+							<table class="tabula table table-hover table-bordered">
+								<br><h5 style="color: #ffffff; text-transform: uppercase;">you have just logged out!</h5><br>
+								<tr><td align="right">Username</td><td align="left">$(username)</td></tr>
+								<tr><td align="right">IP Address</td><td align="left">$(ip)</td></tr>
+								<tr><td align="right">MAC Address</td><td align="left">$(mac)</td></tr>
+								<tr><td align="right">Session Time</td><td align="left">$(uptime)</td></tr>
+								$(if session-time-left)
+								<tr><td align="right">Time Left</td><td align="left">$(session-time-left)</td></tr>
+								$(endif)
+								<tr><td align="right">Bytes up/down:</td><td align="left">$(bytes-in-nice) / $(bytes-out-nice)</td></tr>
+							</table>
+
+							<form action="$(link-login)" name="login" onSubmit="return openLogin()">
+								<input class="btn standard-button" type="submit" value="Login">
+							</form>
+						</div>
+					</div>
+					<!-- /END - REGISTRATION FORM -->
+				</div>
+			</div>
+			<!-- /END HEADING, FEATURES AND REGISTRATION FORM CONTAINER -->
+		</div>
+		<!-- /END COLOR OVERLAY -->
+	</header>
+
+	<!-- =========================
+			SECTION PRICE
+	============================== -->
+	<section class="section4 bgcolor-2" id="pricing">
+		<div class="container">
+			
+			<!-- SECTION HEADING -->
+			<h2>Price Plan</h2>
+			<div class="colored-line"></div>
+			<div class="sub-heading">
+				Tentukan Kebutuhan Internet Bulanan Anda
+			</div>
+			
+			<div class="pricing-table">
+				
+				<!-- PRICING TABLES -->
+				<div class="row">
+					
+					<!-- PACKAGE ONE -->
+					<div class="col-md-4">
+						<div class="package bgcolor-white">
+							<div class="header dark-bg">
+								<h3>Gratis</h3>
+								<div class="sub-heading">
+									Gratis <span class="colored-text strong">30 min</span>/hari
+								</div>
+							</div>
+							
+							<!-- PACKAGE FEATURES -->
+							<div class="package-features">
+								<ul>
+									<li>
+										<div class="column-7p">
+											Batas User
+										</div>
+										<div class="column-3p">
+											15
+										</div>
+									</li>
+									<li>
+										<div class="column-7p">
+											Internet Speed
+										</div>
+										<div class="column-3p">
+											0.3M
+										</div>
+									</li>
+									<li>
+										<div class="column-7p">
+											Internet Uptime
+										</div>
+										<div class="column-3p">
+											30m
+										</div>
+									</li>
+									<li>
+										<div class="column-7p">
+											Unlimited
+										</div>
+										<div class="column-3p">
+											<span class="icon ion-checkmark"></span>
+										</div>
+									</li>
+									<li>
+										<div class="column-7p">
+											Layanan 24/7
+										</div>
+										<div class="column-3p">
+											<span class="icon ion-close"></span>
+										</div>
+									</li>
+								</ul>
+								<div class="bottom-row">
+									<div class="column-7p">
+										<h6></h6>
+									</div>
+									<div class="column-3p">
+										<div id="cta-1">
+											<a href="#home" class="btn secondary-button">LOGIN</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div> <!-- /END PACKAGE -->
+					
+					<!-- PACKAGE TWO -->
+					<div class="col-md-4">
+						<div class="package bgcolor-white">
+							<div class="header color-bg">
+								<h3>Basic</h3>
+								<div class="sub-heading">
+									Mulai <span class=" strong">Rp. 100K</span>/Bulan
+								</div>
+							</div>
+							
+							<!-- PACKAGE FEATURES -->
+							<div class="package-features">
+								<ul>
+									<li>
+										<div class="column-7p">
+											Unlimited Users
+										</div>
+										<div class="column-3p">
+											<span class="icon ion-checkmark"></span>
+										</div>
+									</li>
+									<li>
+										<div class="column-7p">
+											Internet Speed
+										</div>
+										<div class="column-3p">
+											1-5M
+										</div>
+									</li>
+									<li>
+										<div class="column-7p">
+											Internet Uptime
+										</div>
+										<div class="column-3p">
+											24/7
+										</div>
+									</li>
+									<li>
+										<div class="column-7p">
+											Unlimited
+										</div>
+										<div class="column-3p">
+											<span class="icon ion-checkmark"></span>
+										</div>
+									</li>
+									<li>
+										<div class="column-7p">
+											Layanan 24/7
+										</div>
+										<div class="column-3p">
+											<span class="icon ion-checkmark"></span>
+										</div>
+									</li>
+								</ul>
+								<div class="bottom-row">
+									<div class="column-7p">
+									</div>
+									<div class="column-3p">
+										<div id="cta-2">
+											<a href="#contact" class="btn standard-button">DAFTAR</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div> <!-- /END PACKAGE -->
+					
+					<!-- PACKAGE THREE -->
+					<div class="col-md-4">
+						<div class="package bgcolor-white">
+							<div class="header dark-bg">
+								<h3>Ultimate</h3>
+								<div class="sub-heading">
+									Hubungi <span class="colored-text strong">Admin</span>
+								</div>
+							</div>
+							
+							<!-- PACKAGE FEATURES -->
+							<div class="package-features">
+								<ul>
+									<li>
+										<div class="column-7p">
+											Unlimited Users
+										</div>
+										<div class="column-3p">
+											<span class="icon ion-checkmark"></span>
+										</div>
+									</li>
+									<li>
+										<div class="column-7p">
+											Internet Speed
+										</div>
+										<div class="column-3p">
+											5-100M
+										</div>
+									</li>
+									<li>
+										<div class="column-7p">
+											Internet Uptime
+										</div>
+										<div class="column-3p">
+											24/7
+										</div>
+									</li>
+									<li>
+										<div class="column-7p">
+											Unlimited
+										</div>
+										<div class="column-3p">
+											<span class="icon ion-checkmark"></span>
+										</div>
+									</li>
+									<li>
+										<div class="column-7p">
+											Layanan 24/7
+										</div>
+										<div class="column-3p">
+											<span class="icon ion-checkmark"></span>
+										</div>
+									</li>
+								</ul>
+								<div class="bottom-row">
+									<div class="column-7p">
+									</div>
+									<div class="column-3p">
+										<div id="cta-2">
+											<a href="#contact" class="btn secondary-button">DAFTAR</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div> <!-- /END PACKAGE -->
+				</div> <!-- /END ROW -->
+			</div> <!-- /END ALL PACKAGE -->
+			
+		</div> <!-- /END CONTAINER -->
+	</section>
+
+	<section class="cta-section" id="contact">
+		<div class="color-overlay">
+			<div class="container">
+				
+				<h4>Kami Siap Membantu Kebutuhan Anda</h4>
+				<h2>Dapatkan Layanan Terbaik Untuk Akses Internet Anda</h2>
+				
+				<!-- CONTACT INFORMATION -->
+				<div class="subscribe-section">
+					<h3>Segera Hubungi Kami:</h3>
+					<div class="colored-line"></div>
+					<div class="row">
+						<div class="col-md-10 col-md-offset-1">
+							<div class="row">
+								<div class="col-md-4 col-sm-4">
+									<h5 style="color: #FFFFFF">
+									<span class="icon ion-android-call colored-text inline-icon"></span> 082134746279 </h5>
+								</div>
+								<div class="col-md-4 col-sm-4">
+									<h5 style="color: #FFFFFF">
+									<span class="icon ion-android-mail colored-text inline-icon"></span> mbahbar@gmail.com </h5>
+								</div>
+								<div class="col-md-4 col-sm-4">
+									<h5 style="color: #FFFFFF">
+									<span class="icon ion-social-facebook colored-text inline-icon"></span> mbahbir </h5>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- /CONTACT INFORMATION -->
+			</div>  <!-- /END CONTAINER -->
+
+		</div>  <!-- /END COLOR OVERLAY -->
+
+	</section>
+
+
+<!-- =========================
+     SECTION 10 - FOOTER 
+============================== -->
+	<footer class="bgcolor-3">
+		<div class="container">
+			
+			<div class="footer-logo">
+				<img src="images/logo-dark.png" alt="" style="width: 100px; height: 65px">
+			</div>
+			<div class="copyright">
+				 Pulpstone Internet Freedom
+				 <br>©2017
+			</div>
+
+			<ul class="social-icons">
+				<li>
+					<a href=""><img style="height: 24px; width: 24px;" src="images/indihome-dark.png" alt=""></a>
+				</li>
+				<li>
+					<a href=""><img style="height: 24px; width: 24px;" src="images/mikrotik-dark.png" alt=""></a>
+				</li>
+				<li>
+					<a href=""><img style="height: 24px; width: 24px;" src="images/tp-link-dark.png" alt=""></a>
+				</li>
+				<li>
+					<a href=""><img style="height: 24px; width: 24px;" src="images/ubiquity-dark.png" alt=""></a>
+				</li>
+				<li>
+					<a href=""><img style="height: 24px; width: 24px;" src="images/zte-dark.png" alt=""></a>
+				</li>
+				<li>
+					<a href="">
+						<img style="height: 24px; width: 45px;" src="images/tenda-dark.png" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img style="height: 24px; width: 45px;" src="images/toto-link-dark.png" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img style="height: 24px; width: 45px;" src="images/belden-dark.png" alt="">
+					</a>
+				</li>
+			</ul>
+
+		</div>
+	</footer>
+
+
+	<!-- =========================
+	     SCRIPTS   
+	============================== -->
+	<script src="js/jquery/jquery.min.js"></script>
+
+	<script>
+	/* =================================
+	   LOADER                     
+	=================================== */
+	// makes sure the whole site is loaded
+	jQuery(window).load(function() {
+	        // will first fade out the loading animation
+		jQuery(".status").fadeOut();
+	        // will fade out the whole DIV that covers the website.
+		jQuery(".preloader").delay(1000).fadeOut("slow");
+	})
+
+	</script>
+
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/retina-1.1.0.min.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/jquery.scrollTo.min.js"></script>
+	<script src="js/jquery.localScroll.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/nivo-lightbox.min.js"></script>
+	<script src="js/simple-expand.min.js"></script>
+	<script src="js/jquery.nav.js"></script>
+	<script src="js/matchMedia.js"></script>
+	<script src="js/jquery.fitvids.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/custom.js"></script>
+
+</body>
+</html>
